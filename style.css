@@ -1,0 +1,92 @@
+body {
+margin:0;
+font-family:Poppins;
+
+background: linear-gradient(135deg,#ffb6d9,#ffd6f0,#fff0f7);
+min-height:100vh;
+}
+
+.overlay {
+padding:30px;
+}
+
+h1 {
+text-align:center;
+font-size:50px;
+text-shadow:0 0 15px #ff69b4;
+}
+
+.top {
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.time-box {
+background:rgba(255,255,255,0.3);
+padding:15px;
+border-radius:15px;
+backdrop-filter:blur(10px);
+}
+
+.countdown {
+margin:20px 0;
+padding:15px;
+background:rgba(255,255,255,0.3);
+border-radius:15px;
+}
+
+.week {
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:10px;
+}
+
+.card {
+background:rgba(255,255,255,0.3);
+padding:15px;
+border-radius:15px;
+backdrop-filter:blur(10px);
+transition:0.3s;
+}
+
+.card:hover {
+transform:scale(1.03);
+}
+
+input {
+width:100%;
+margin:5px 0;
+padding:8px;
+border:none;
+border-radius:8px;
+}
+
+#tests, #events {
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.item {
+display:flex;
+gap:10px;
+background:rgba(255,255,255,0.3);
+padding:10px;
+border-radius:10px;
+}
+
+#calendar {
+display:grid;
+grid-template-columns:repeat(7,1fr);
+gap:5px;
+margin-top:10px;
+}
+
+.day {
+background:rgba(255,255,255,0.3);
+padding:8px;
+border-radius:10px;
+min-height:60px;
+font-size:12px;
+}

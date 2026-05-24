@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StudyFlow</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="overlay">
+
+    <!-- TOP -->
+    <div class="top">
+        <h1>🌸 StudyFlow</h1>
+
+        <div class="time-box">
+            <div id="day"></div>
+            <div id="clock"></div>
+        </div>
+    </div>
+
+    <div class="countdown">
+        🌴 Do wakacji: <span id="vacation"></span>
+    </div>
+
+    <!-- PLAN LEKCJI -->
+    <h2>📚 Plan lekcji</h2>
+
+    <div class="week">
+
+        <div class="card">
+            <h3>Poniedziałek</h3>
+            <input placeholder="8:00">
+            <input placeholder="9:00">
+            <input placeholder="10:00">
+        </div>
+
+        <div class="card">
+            <h3>Wtorek</h3>
+            <input placeholder="8:00">
+            <input placeholder="9:00">
+            <input placeholder="10:00">
+        </div>
+
+        <div class="card">
+            <h3>Środa</h3>
+            <input placeholder="8:00">
+            <input placeholder="9:00">
+            <input placeholder="10:00">
+        </div>
+
+        <div class="card">
+            <h3>Czwartek</h3>
+            <input placeholder="8:00">
+            <input placeholder="9:00">
+            <input placeholder="10:00">
+        </div>
+
+        <div class="card">
+            <h3>Piątek</h3>
+            <input placeholder="8:00">
+            <input placeholder="9:00">
+            <input placeholder="10:00">
+        </div>
+
+    </div>
+
+    <!-- SPRAWDZIANY -->
+    <h2>📝 Sprawdziany</h2>
+
+    <div id="tests"></div>
+
+    <!-- EVENTY -->
+    <h2>📅 Mini eventy</h2>
+
+    <div id="events"></div>
+
+    <!-- KALENDARZ -->
+    <h2>📆 Kalendarz (Notion style)</h2>
+    <div id="calendar"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
